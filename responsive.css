@@ -1,0 +1,33 @@
+/* Tabs */
+@media (max-width: 1000px) {
+    .profile-icon {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+    .top-wrapper p {
+        font-size: 20px;
+    }
+}
+
+/*hp*/
+@media (max-width:670px) {
+    .profile-icon {
+        width: 100%;
+    }
+    .header-right {
+        display: none;
+    }
+    .header-right li {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        color: white;
+        float: right;
+        font-size: 25px;
+        padding: 21px 0;
+    }
+}
