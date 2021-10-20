@@ -1,0 +1,214 @@
+
+/* Guys, ini untuk color-nya*/
+/* Header: #252e39*/
+/* Register: #14a7d0*/
+/*Quote Wrapper: #18898d
+/* txt top-wrapper: #feb447*/
+
+* {  
+    box-sizing: border-box;  
+}  
+    
+
+body {
+	margin: 0;
+	font-family: Verdana;
+}
+
+
+.clear {
+    clear: left;
+}
+
+.container {
+    /*max-width: 1170px;*/
+	width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-wrapper {
+    padding-top: 180px;
+    padding-bottom: 300px;
+	background-image: url(https://leverageedu.com/blog/wp-content/uploads/2020/05/Teamwork.png);
+	background-size: cover;
+}
+
+.top-wrapper h1 {
+    color: #18898d;
+    padding: 0px;
+}
+
+.top-wrapper p {
+    color: #18898d;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.header-left {
+    width: 124px;
+    float: left;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.header-right {
+    float: right;
+    /*background-color: #14a7d0;*/
+    margin-right: -25px;
+
+}
+
+.header-right li {
+    float: right;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+
+}
+
+.menu-icon {
+    display: none;
+}
+
+.login:hover {
+    background-color: #14a7d0;
+    opacity: 1;
+    transition: all 0.5s;
+    display: block;
+}
+
+.Register:hover {
+    background-color: #14a7d0;
+    opacity: 1;
+    transition: all 0.5s;
+    display: block;
+}
+
+.About:hover {
+    background-color: #14a7d0;
+    opacity: 1;
+    transition: all 0.5s;
+    display: block;
+}
+
+.quote-wrapper {
+    font-style: italic;
+    height: 20px;
+    padding-bottom: 60px;
+    background-color: #18898d;
+}
+
+.heading h2 {
+    text-align: center;
+}
+
+.heading p {
+    text-align: center;
+}
+
+.profiles-wrapper {
+    padding-bottom: 300px;  
+    padding-left: 5%;  
+    padding-right: 5%;  
+    background-color: #f7f7f7;  
+    text-align: center;  
+}  
+
+.txt-contents {
+    font-size: 12px;
+}
+
+.profile-icon {
+    float: left;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-facebook {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-envelope {
+    background: #007bb5;
+    color: white;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #252e39; 
+}
+
+.footer-left {
+    float: left;
+    color: #b3aeb5;  
+    font-size: 12px;  
+}
+
+.footer-right {
+    float: right;
+    color: white;
+}
+
+.footer-right p {
+    color: white;
+    font-size: 12px;
+}
+
+/* Menambahkan Responsive (Tab)*/
+@media (max-width: 1000px) {
+    .profile-icon {
+        width: 20%;
+    }
+}
+
+/* Menambahkan Responsive (hp)*/
+@media (max-width: 670px) {
+    .profile-icon {
+        width: 100%;
+    }
+}
